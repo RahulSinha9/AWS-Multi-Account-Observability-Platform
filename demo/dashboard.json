@@ -1,0 +1,4 @@
+{
+  "title": "AWS Multi-Account Observability",
+  "panels": ["request rate", "error rate", "p95 latency", "SLO availability", "error budget", "burn rate"]
+}

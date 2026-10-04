@@ -1,0 +1,8 @@
+services:
+  observability-demo:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      SERVICE_NAME: observability-demo
+      SLO_TARGET: "0.999"
