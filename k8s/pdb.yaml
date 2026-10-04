@@ -1,0 +1,10 @@
+apiVersion: policy/v1
+kind: PodDisruptionBudget
+metadata:
+  name: observability-demo
+  namespace: observability-demo
+spec:
+  minAvailable: 1
+  selector:
+    matchLabels:
+      app: observability-demo

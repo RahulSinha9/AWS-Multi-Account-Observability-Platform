@@ -1,0 +1,6 @@
+apiVersion: v2
+name: observability-demo
+description: Demo workload for the AWS multi-account observability platform
+type: application
+version: 0.1.0
+appVersion: "1.0.0"
